@@ -31,4 +31,4 @@ Ten shots possible -  for every team in each round. Goals - results of successfu
 ## Layout design
 Grid Layout -  for the page.
 Flexbox - for the grid areas.
-
+.
