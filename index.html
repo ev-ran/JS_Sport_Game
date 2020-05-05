@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Game Challenge</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <div id=gameContainer>
+
+        <div id=gameField>
+
+            <header>
+                <h1>My JS Game</h1>
+            </header>
+
+            <div id="team_01">
+
+                <h2> Team 1 </h2>
+
+                <p>SHOTS TAKEN: <span id="teamone-numshots" class="color_num">0</span> </p>
+
+                <p>GOALS: <span id="teamone-numgoals" class="color_num">0</span></p>
+                <div class="button-around">
+
+                    <!-- ======clickable button========================-->
+                    <div id="teamone-shoot-button" class="abutton">
+
+                        <a href="#">SHOOT</a>
+                    </div>
+                    <!-- ================================== -->
+
+                </div>
+            </div>
+
+            <div id="team_02">
+
+                <h2> Team 2 </h2>
+
+                <p>SHOTS TAKEN: <span id="teamtwo-numshots" class="color_num">0</span></p>
+
+                <p>GOALS: <span id="teamtwo-numgoals" class="color_num">0</span></p>
+                <div class="button-around">
+
+                    <!-- ======clickable button========================-->
+                    <div id="teamtwo-shoot-button" class="abutton">
+
+                        <a href="#">SHOOT</a>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+            <section id="roundContainer">
+
+                <p> ROUND # <span id="num-resets" class="color_num">1</span></p> <!-- number of round -->
+
+                <div id="scoreContainer">
+                    <h2> Score </h2>
+
+                    <p>
+                        TEAM 1 : <span id="teamone-score" class="color_num">0</span>
+                    </p>
+                    <p>
+                        TEAM 2 : <span id="teamtwo-score" class="color_num">0</span>
+                    </p>
+                </div>
+
+
+
+            </section>
+
+            <div id="startNewRoundContainer" class="button-around">
+
+                <!-- ======clickable button========================-->
+                <div id="reset-button" class="abutton">
+
+                    <a href="#">NEW ROUND</a>
+                </div>
+
+            </div>
+
+            <footer>
+
+                <!-- ======clickable button========================-->
+                <div id="start-game-button" class="abutton">
+
+                    <a href="#">Start Game!</a>
+
+                </div>
+
+                <div id="quit-game-button" class="abutton">
+                    <!-- <button id="quit-game-button">Quit Game</button> -->
+                    <a href="#">Quit Game</a>
+
+                </div>
+
+            </footer>
+
+        </div>
+    </div>
+
+    <script src="./assets/javascript/game.js"></script>
+</body>
+
+</html>
