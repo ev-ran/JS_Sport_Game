@@ -1,4 +1,6 @@
-## Assessment: JS Sports Game
+live link: https://ev-ran.github.io/JS_Sport_Game/.
+
+## JS Sports Game
  
 ![-](assets/img/about.png)
 
